@@ -1,0 +1,203 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background-color: #f0f0f0; /* Light gray background */
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: left;
+    padding: 1rem 0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-size: small;
+    font-style: italic;
+  }
+  
+  nav ul {
+    text-align: right;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    text-align: right;
+    display: inline-block;
+    margin: 0 1rem;
+  }
+  
+  nav a {
+    text-align: right;
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .hero {
+    text-align: center;
+    background-color: #333; /* Dark background for hero section */
+    color: #fff;
+    padding: 4rem 0;
+  }
+  
+  .hero h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero p {
+    margin-bottom: 2rem;
+  }
+  
+  .hero span {
+    color: #ff6347; /* Highlight forbody {
+      font-family: sans-serif;
+      margin: 0;
+      background-color: #f0f0f0; /* Light gray background */
+    }
+    
+    header {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 1rem 0;
+    }
+    
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    
+    nav li {
+      display: inline-block;
+      margin: 0 1rem;
+    }
+    
+    nav a {
+      text-decoration: none;
+      color: #fff;
+    }
+    
+    .hero {
+      text-align: center;
+      background-color: #333; /* Dark background for hero section */
+      color: #fff;
+      padding: 4rem 0;
+      word-spacing
+    }
+    
+    .hero h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    
+    .hero p {
+      margin-bottom: 2rem;
+    }
+    
+    .hero span {
+      color: #ff6347; /* Highlight for "GRIN" */
+    }
+    
+    .hero button {
+      background-color: #fff;
+      color: #333;
+      padding: 1rem 2rem;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    
+    .testimonial {
+      background-color: #e6c9ff; /* Purple background for testimonial */
+      padding: 2rem 0;
+      text-align: center;
+    }
+    
+    .testimonial-container {
+      max-width: 800px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+    }
+    
+    .testimonial-container img {
+      border-radius: 50%;
+      width: 150px;
+      margin-right: 2rem;
+    }
+    
+    .testimonial-content {
+      text-align: left;
+    }
+    
+    .instructors {
+      text-align: center;
+      padding: 2rem 0;
+    }
+    
+    .instructor-cards {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap; 
+    }
+    
+    .instructor {
+      background-color: #fff;
+      border-radius: 5px;
+      padding: 2rem;
+      text-align: center;
+      margin: 1rem;
+      width: 250px;
+    }
+    
+    .instructor img {
+      max-width: 100px;
+      margin-bottom: 1rem;
+    } "GRIN" */
+  }
+  
+  .hero button {
+    background-color: #fff;
+    color: #333;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .instr{
+    text-align: center;
+    padding: 2rem 0;
+    display: -moz-inline-box;
+  }
+  
+  .pros{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; 
+    display: -moz-inline-box;
+  }
+  
+  .inst {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 2rem;
+    text-align: center;
+    margin: 1rem;
+    width: 250px;
+    img{
+        &:hover {
+        background-color: red;
+        }
+        }
+  img:hover{
+    background-color: red;
+  }
+  }
+  
+  .instructor img {
+    max-width: 100px;
+    margin-bottom: 1rem;
+  }

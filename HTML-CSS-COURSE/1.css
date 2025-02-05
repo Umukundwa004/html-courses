@@ -1,0 +1,107 @@
+
+.class0 {
+  background-color: bisque; /* Example background color */
+  padding: 20px;
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Align items to opposite ends */
+  align-items: center; /* Vertically align items */
+}
+
+.class0 h1 {
+  margin: 0; /* Remove default margin from h1 */
+}
+
+.nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex; /* Make list items horizontal */
+}
+
+.nav li {
+  margin-left: 20px; /* Add spacing between list items */
+}
+
+.nav a {
+  text-decoration: none;
+  color: #333; /* Example link color */
+}
+
+/* Section (Content and Image) Styles */
+.class1 {
+  display: flex; /* Use flexbox for horizontal layout */
+  align-items: center; /* Vertically align content and image */
+  padding: 40px; /* Add padding around the section */
+}
+
+.class11 {
+  flex: 1; /* Allow content to take up available space */
+  text-align: left; /* Align text to the left */
+  margin-right: 40px; /* Add spacing between content and image */
+}
+
+.class11 h2, .class11 h3, .class11 p {
+  margin-bottom: 10px; /* Add spacing between headings and paragraphs */
+}
+
+.img1 {
+  width: 30%;  /* Adjust image width as needed */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px; /* Add rounded corners to the image (optional) */
+  box-shadow: 4px 4px 8px rgb(247, 238, 152); /* Add a subtle shadow (optional) */
+}
+
+
+/* Responsive Design (Optional) - Adjust breakpoint as needed */
+@media (max-width: 768px) {
+  .class1 {
+    flex-direction: column; /* Stack content and image vertically on smaller screens */
+    text-align: center; /* Center text on smaller screens */
+    background-color: 4px 4px 8px rgb(241, 236, 195);
+  }
+  .class11 {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  .img1 {
+    width: 80%; /* Make image wider on smaller screens */
+    margin: 0 auto; /* Center image on smaller screens */
+  }
+}
+
+.class22 {
+  display: flex; /* Arrange items horizontally */
+  flex-wrap: wrap; /* Allow items to wrap onto multiple lines if needed */
+  justify-content: space-around; /* Distribute space evenly around items */
+  /* Add any other container styles here, like padding, background, etc. */
+  background-color: bisque;
+}
+
+.class2 {
+  text-align: center; /* Center the image and text within each container */
+  margin: 10px; /* Add some margin around each container for spacing */
+  /* You can set a fixed width for the images if you want them all to be the same size */
+  /* width: 200px;  */
+}
+
+.class2 img {
+  width: 150px; /* Adjust image width as needed */
+  height: 150px; /* Adjust image height as needed */
+  border-radius: 50%; /* Make images circular (optional) */
+  object-fit: cover; /* Maintain aspect ratio and cover the entire area (optional) */
+  /* Add any other image styles here, like borders, shadows, etc. */
+  border: 2px solid #ccc; /* Example border */
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.3); /* Example shadow */
+}
+
+.class2 p {
+  margin-top: 5px; /* Add some space between the image and the text */
+  font-weight: bold; /* Example text styling */
+}
+
+/* Optional: Styles for larger screens */
+@media (min-width: 768px) { /* Adjust breakpoint as needed */
+  .class2 {
+    width: 200px; /* Example width for larger screens */
+  }
+}
